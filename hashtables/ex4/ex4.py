@@ -13,8 +13,8 @@ def has_negatives(a):
         num = abs(num) # convert all numbers to positive
         if num in ht: # if number in hash table 
             ht[num] += 1 # add to count
-            if ht[num] > 1: # if hash table count
-                result.append(num) # number to results
+            if ht[num] > 1: # if hash table count greater than 1
+                result.append(num) # add number to results
                 # print(ht)
                 # print(result)
         else:
