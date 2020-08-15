@@ -22,10 +22,13 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
-1. Hashing functions
-2. Collision resolution
-3. Performance of basic hash table operations
-4. Load factor
+1. Hashing functions - converts data into a number value that's indexed within the range of an array or list. 
+
+2. Collision resolution - when two or more data items are attempting to be stored in the same index provided by the hash we can resolve this multiple ways: a. linear probing - search the hash table sequentially until an empty index is found; b. quadratic probing - looks for the i^2th slot in i'th iteration of the given hash; c. chaining - instead of a single index having a single slot each index entry is the head of a linked list, each potential collision becomes an additional node on the linked list. 
+
+3. Performance of basic hash table operations - Basic operations of a hash table include: search, insert and delete. These are all O(1) - constant time operations. 
+
+4. Load factor - Load factor is the number of keys stored in the hash table divided by the capacity. 
 5. Automatic resizing
 6. Various use cases for hash tables
 
@@ -35,12 +38,12 @@ We expect you to be able to answer questions in these areas. Your responses cont
 
 ### Task 1: Project Set-Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as a collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as a collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
